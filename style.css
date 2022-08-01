@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h3{
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+}
+h5{
+    font-family: 'Convergence', sans-serif;
+    font-size: 20px;
+}
+body{
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+nav{
+    max-width: 1500px;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 50px;
+    font-family:'Oswald', sans-serif;
+    position: relative;
+    bottom: 1.5cm;
+}
+.menu-horizontal {
+list-style: none;
+display: flex;
+justify-content: end;
+}
+.menu-horizontal > li > a {
+display: block;
+margin: 10px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
+.menu-horizontal > li:hover{
+    background-color: rgba(112, 112, 112, 0.685);
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 98px;
+    background-color: rgba(0, 0, 0,.5);
+    
+}
+.menu-horizontal > li:hover .menu-vertical{
+    display: inline-block;
+}
+.menu-vertical li:hover{
+    background-color: black;
+}
+.menu-vertical li a{
+    display: inline-block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+.contenedor-portada > img{
+    position: relative;
+    bottom: 8cm;
+    z-index: -1;
+    height: 24.5cm;
+    width:100%;
+}
+
+h1 {
+    position: relative;
+    bottom: 28cm;
+    width: 15px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    padding: 80px;
+    transform:rotate(-90deg);
+    font-size: 40px;
+}
+.contenedor-imagenes {
+    position: relative;
+    bottom: 15cm;
+    display: flex;
+    
+    
+    
+}
+.contenedor-imagenes > img{
+    width: 450px;
+    height: 400px;
+    margin-right: 20px;
+    padding-left:20px ;
+    transition: 1s;
+}
+.contenedor-imagenes > img:hover{
+    width: 500px;
+    height: 450px;
+    margin-right: 20px;
+    padding-left:20px ;
+    transition: 1s;
+}
+.contenedor-h5-{
+    position: relative;
+    bottom: 3.7cm;
+    padding-right:360px;
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+.contenedor-h5- > .h5 {
+position: relative;
+left:22px;
+}
+.contenedor-h5- > .h55{
+    position: relative;
+    bottom: 11cm;
+    right: .5cm;
+}
+.contenedor-h5- > .h555{
+    position: relative;
+    bottom: 11cm;
+    left: .7cm;
+    
+    
+}
+.contenedor-p--{
+    display: flex;
+    position: relative;
+    bottom: 14.8cm;
+    width: 1200px;
+    padding-left: 23px;
+    
+    
+}
+.contenedor-p-- > .p {
+    position: relative;
+    left: 14.3cm;
+    bottom: 0cm;
+}
+.contenedor-p-- > .pp {
+    position: relative;
+    right: 8.2cm;
+}
+.h3{
+    position: relative;
+    bottom: 15cm;
+    left: .5cm;
+    display: inline-block;
+}
+.contenedor-img{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 11cm;
+}
+.contenedor-img > img{
+    width: 400px;
+    height: 450px;
+}
+.contenedor-img > .img{
+    width: 850px;
+}
+.contenedor-h3-{
+    display: flex;
+    padding-left: 10px;
+    position: relative;
+    margin-right: 20px;
+    margin-top: 10px;
+    bottom: 11cm;
+}
+.contenedor-h3- > .h3{
+    position: relative;
+    top: 0cm;
+}
+
+.contenedor-h3- > .h33{
+    position: relative;
+    left: 7cm;
+}
+
+.h5{
+    position: relative;
+    left: 12.5cm;
+    bottom: 11cm;
+    display: inline-block;
+}
+.p{
+    position: relative;
+    left:12.5cm ;
+    bottom: 11cm;
+    max-width: 500px;
+}
+.contenedor-imgg{
+ display: flex;
+ justify-content: space-around;
+ position: relative;
+ bottom: 13cm;
+}
+.contenedor-imgg > img{
+    width:450px ;
+    height: 400px;
+}
+.contenedor-imgg > .imgg{
+    width: 800px;
+}
+.contenedor-h3{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 13cm;
+    max-width: 1325px;
+}
+.contenedor-h3 > .h333{
+    position: relative;
+    right: 9.7cm;
+}
+.contenedor-h5{
+    display: flex;
+    justify-content: space-between;
+    padding-left: .7cm;
+    position: relative;
+    bottom: 13cm;
+    max-width: 1300px;
+}
+.contenedor-h5 > .h55{
+position: relative;
+right: 6.4cm;
+bottom: 5scm;
+}
+.contenedor-p{
+    display: flex;
+    justify-content: space-between;
+    padding-left:.7cm ;
+    position: relative;
+    bottom: 13cm;
+    }
+
+.pp{
+    position: relative;
+    right:220px ;
+}
